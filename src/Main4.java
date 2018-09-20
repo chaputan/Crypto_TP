@@ -1,5 +1,4 @@
 import java.math.BigInteger;
-import java.util.Scanner;
 
 class Main4 {
 
@@ -19,7 +18,6 @@ class Main4 {
         }
 
         System.out.println(cpt);
-
     }
 
     public static boolean primaliteNaif(int nb) {
@@ -42,6 +40,5 @@ class Main4 {
         BigInteger res = a.modPow(n.subtract(BigInteger.ONE), n);
 
         return res.equals(BigInteger.ONE);
-
     }
 }
